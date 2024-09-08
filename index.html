@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Recipe Builder</h1>
+    <form id="recipe-form">
+        <label for="ingredient">Ingredient:</label>
+        <input type="text" id="ingredient" name="ingredient" required>
+        <br><br>
+        <label for="direction">Direction:</label>
+        <input type="text" id="direction" name="direction" required>
+        <br><br>
+        <button type="button" id="add-btn">Add to Recipe</button>
+    </form>
+
+    <h2>Recipe:</h2>
+    <ul id="recipe-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
